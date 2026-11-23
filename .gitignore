@@ -3,3 +3,6 @@ dist/
 .env
 *.db
 .DS_Store
+Assets/Logo/Nanki-logo.png
+Assets/Logo/Nanki-logo.psd
+Assets/Logo/Nanki-logo-small.png

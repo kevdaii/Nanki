@@ -1,9 +1,12 @@
+# Nanki - Flashcard App
+![Nanki Logo](Assets/Logo/Nanki-logo-git.png)
+
 # Bookmark
-- [[##Was ist Anki?]]
-- [[##FSRS-Algorithmus]]
-- [[##Anki Features]]
-- [[##Features Implemented in 'Nanki - Not Anki']]
-- [[#Sources]]
+- [Was ist Anki?](#was-ist-anki)
+- [FSRS-Algorithmus](#fsrs-algorithmus)
+- [Anki Features](#anki-features)
+- [Features Implemented in 'Nanki - Not Anki'](#features-implemented-in-nanki---not-anki)
+- [Sources](#sources)
 ## Was ist Anki?
 Anki ist eine Flashcard-Applikation, die wie im echten Leben Karteikarten zeigen und auf der Rückseite sich die Antwort befindet. Anki unterscheidet sich von anderen Flashcard-Applikationen, in dem es eine Sogenannte FSRS-Algorithmus verwendet.
 ## FSRS-Algorithmus

@@ -1,9 +1,9 @@
 # Bookmark
-- [[##Empfohlener Tech Stack]]
-- [[##Alternativen]]
-- [[##Kernkomponenten]]
-- [[##Offene Fragen]]
-- [[#Sources]]
+- [Empfohlener Tech Stack](#empfohlener-tech-stack)
+- [Alternativen](#alternativen)
+- [Kernkomponenten](#kernkomponenten)
+- [Offene Fragen](#offene-fragen)
+- [Sources](#sources)
 ## Empfohlener Tech Stack
 Für den Einstieg eine **Web-App mit TypeScript, local-first**. So sieht man schnell Ergebnisse, und Backend und Synchronisation können später ergänzt werden.
 
@@ -29,7 +29,7 @@ Diese Teile sind unabhängig vom gewählten Stack.
 - `Card`: die abgefragte Karte mit FSRS-Zustand (Stability, Difficulty, Fälligkeitsdatum, State)
 - `ReviewLog`: jede einzelne Antwort (Bewertung, Zeitpunkt), Grundlage für FSRS
 ### Scheduling-Algorithmus
-- Ziel ist **FSRS** (siehe [[Nanki - 'Not Anki'#FSRS-Algorithmus]]).
+- Ziel ist **FSRS** (siehe [FSRS-Algorithmus](README.md#fsrs-algorithmus)).
 - Optional als Zwischenschritt zuerst **SM-2** umsetzen. Er ist einfach und gut dokumentiert und hilft, das Prinzip von Spaced Repetition zu verstehen.
 - Als Übung FSRS selbst implementieren, statt eine Library (z. B. `ts-fsrs`) zu verwenden. Die Library kann aber zum Vergleichen in Tests dienen.
 ### Review-Ansicht
