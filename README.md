@@ -27,6 +27,16 @@ FSRS steht für Free Spaced Repetition Scheduler und ist eine Open Source-Algori
 - Review
 - Deck Presets
 - FSRS Algorithmus
+### Things I have learned
+#### Linters
+Linters liest den Code und warnt vor Fehlern und schlechten Muster, wie z.b.:
+
+- Deklariert Variablen, die nicht benutzt werden.
+- Falsch verwendete React-Hooks
+- 'await' vergessen
+
+Im Gegensatz zu TypeScript prueft es nicht Typen, sondern Muster und Regeln.
+
 # Sources
 - https://github.com/open-spaced-repetition/awesome-fsrs/wiki/ABC-of-FSRS
 - https://apps.ankiweb.net/
