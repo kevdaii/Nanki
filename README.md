@@ -9,6 +9,17 @@
 - [Sources](#sources)
 ## Was ist Anki?
 Anki ist eine Flashcard-Applikation, die wie im echten Leben Karteikarten zeigen und auf der Rückseite sich die Antwort befindet. Anki unterscheidet sich von anderen Flashcard-Applikationen, in dem es eine Sogenannte FSRS-Algorithmus verwendet.
+
+## SM-2-Algorithmus
+**Die Idee**
+
+Jedes Mal, wenn du eine Karte richtig beantwortest, wird der Abstand bis zur nächsten Wiederholung länger. Wenn du sie vergisst, fängst du von vorne an.
+```zsh
+Good → 1 Tag → Good → 2,5 Tage → Good → 6 Tage → Good → 16 Tage → ...
+                                          Again ↓
+                                    in 10 Minuten nochmal
+```
+
 ## FSRS-Algorithmus
 FSRS steht für Free Spaced Repetition Scheduler und ist eine Open Source-Algorithmus, die von Jarrett Ye entwickelt. Mithilfe diesem Algorithmus wird der optimale Zeitpunkt berechnet in dem man eine bestimmte Karte wiederholen muss. Anstatt jede einzelne Karte immer wieder zu wiederholen. Eruiert der Algorithmus, wann die Karte wiederholt werden muss, sodass es im Langzeitgedächtnis bleibt.
 ## Anki Features

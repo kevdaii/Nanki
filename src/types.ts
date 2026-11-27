@@ -41,6 +41,7 @@ export type Card = {
     due:        Date;           // wann ist die Karte wieder dran?
     stability:  number;         // FSRS: wie lange hält die Erinnerung (in Tagen)?
     difficulty: number;         // FSRS: wie schwer ist die Karte (1–10)?
+    ease:       number;         // SM-2: Wachstumsfaktor, startet bei 2.5, minimal 1.3
     reps:       number;         // wie oft wurde sie schon wiederholt?
     lapses:     number;         // wie oft wurde sie vergessen?
     lastReview: Date | null;    // null = noch nie gelernt
